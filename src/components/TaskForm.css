@@ -1,0 +1,46 @@
+/* src/components/TaskForm.css */
+
+/* Plese style your form here if needed*/
+.Box {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 20px auto;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #8b8989;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #434242;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+option {
+    font-size: 14px;
+}
+
+@media (max-width: 400px) {
+    .main {
+        width: 90%;
+        padding: 15px;
+    }
+}
